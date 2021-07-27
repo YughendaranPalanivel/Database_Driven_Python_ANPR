@@ -1,0 +1,8 @@
+CREATE DATABASE abc;
+USE abc;
+
+CREATE TABLE data(
+	plate_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    plate_ts TIMESTAMP,
+    plate_num VARCHAR(50)
+);
