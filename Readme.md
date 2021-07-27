@@ -1,4 +1,4 @@
-### Automatic Number Plate Recognition Using Python and MySQL
+# Automatic Number Plate Recognition Using Python and MySQL
 
 A Python application that can recognize vehicle numbers from licence plates and store it in a MySQL database.
 
