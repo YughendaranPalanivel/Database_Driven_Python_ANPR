@@ -13,10 +13,10 @@ cascodeClassifier = cv2.CascadeClassifier(preTrainedModelPath)
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 #config freeDB MySQL database 
-connection = mysql.connector.connect(host='127.168.43.208',
-                                     database='anpl',
-                                     user='root',
-                                     password='Subaa123#')
+connection = mysql.connector.connect(host='***',
+                                     database='***',
+                                     user='***',
+                                     password='***')
 if connection.is_connected():
     db_Info = connection.get_server_info()
     print("Connected to MySQL Server version ", db_Info)
